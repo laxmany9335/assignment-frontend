@@ -45,5 +45,5 @@ export interface CreateJobDto {
   description: string;
   requirements: string;
   responsibilities: string;
-  applicationDeadline: Date;
+  applicationDeadline: string;
 }

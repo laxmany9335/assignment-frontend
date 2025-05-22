@@ -3,7 +3,7 @@
 import axios from 'axios';
 import { CreateJobDto, Job, JobFilter } from './types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+const API_URL = "https://assignment-url0.onrender.com";
 
 const api = {
   getJobs: async (filters?: JobFilter): Promise<Job[]> => {
